@@ -10,14 +10,14 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <DarkModeToggle />
+   
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           {/* Add more routes here if needed */}
         </Routes>
         {/* Uncomment the Footer once you're ready to include it */}
-        {/* <Footer /> */}
+        {/* <Footer /> */}   <DarkModeToggle />
       </div>
     </Router>
   );
